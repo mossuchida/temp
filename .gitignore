@@ -1,3 +1,8 @@
+#Misc
+*.DS_store
+*.dockerignore
+*package-lock.json
+
 # Logs
 logs
 *.log
