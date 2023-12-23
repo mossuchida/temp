@@ -10,6 +10,15 @@
                 "package": "${workspaceFolder}/myExpressApp/package.json",
                 "localRoot": "${workspaceFolder}/myExpressApp"
             }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node.js Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/myExpressApp/bin/www"
         }
     ]
 }
